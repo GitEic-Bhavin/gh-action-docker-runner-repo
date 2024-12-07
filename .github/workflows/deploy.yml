@@ -2,7 +2,7 @@ name: Deployment container
 on:
   push:
     branches:
-      - main
+      - master
       - dev
 env:
   CACHE_KEY: node-deps
