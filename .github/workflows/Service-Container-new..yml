@@ -1,3 +1,8 @@
+# If container: key dont define then all steps will be run in your ubuntu img in runner.
+# all steps will be running in runner itself and
+# service contaienr will have mongodb with its defined credentials. ?
+# so, my runner will be connected to service container ?
+
 name: New Service Container in docker runner
 on:
   push:
