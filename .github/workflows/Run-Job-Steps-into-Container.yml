@@ -1,4 +1,4 @@
-name: Deployment container
+name: Deployment container as runner
 on:
   push:
     branches:
